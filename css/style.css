@@ -1,0 +1,214 @@
+body {
+	background: url(../img/subtle-emboss.png);
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+/*-----------typography-------------*/
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: helvetica, arial, sans-serif;
+}
+h1 {
+	font-size: 60px;
+	line-height: 90px;
+}
+h2 {
+	font-size: 48px;
+	line-height: 60px;
+}
+h3 {
+	font-size: 36px;
+	line-height: 45px;
+}
+h4 {
+	font-size: 24px;
+	line-height: 30px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 22px;
+}
+h6 {
+	font-size: 16px;
+	line-height: 20px;
+}
+p {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/*----links----*/
+
+a {
+	text-decoration: none;
+}
+a:hover {
+
+}
+
+/*----misc styles----*/
+
+#form-container {
+	background: rgba(0,0,0,.7);
+	float: left;
+	padding-bottom: 114px;
+	width: 360px;
+}
+label[for='form'] > p {
+	background: rgba(225,120,25,1);
+	border-radius: 20px;
+	color: #ccc;
+	font-family: 'julius sans one', helvetica;
+	font-size: 14px;
+	letter-spacing: -1px;
+	line-height: 30px;
+	margin: 25px 95px 10px 85px;
+	width: 160px;
+	text-align: center;
+}
+label[for='form'] > p:hover {
+	background: rgba(225,120,25,.6);
+	color: #fff;
+	cursor: pointer;
+}
+input[id='form'] {
+	display: none;
+}
+iframe {
+	background: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 50px;
+	visibility: hidden;
+}
+
+input[id='form']:checked ~ iframe {
+	visibility: visible;
+}
+
+.ribbon {
+	background: rgb(255,150,50);
+	color: #fff;
+	font-family: 'julius sans one';
+	font-size: 16px !important;
+	margin: 40px auto 60px; 
+	padding: 20px 20px; 
+	position: relative;
+	text-align: center;
+	width: 430px;
+}
+.ribbon:before,
+.ribbon:after {
+	border: 30px solid rgb(225,120,25);
+	content: "";
+	display: block;
+	position: absolute;
+		bottom: -20px;
+	z-index: -1;
+}
+.ribbon:before {
+	border-left-color: transparent;
+	border-right-width: 30px;
+	left: -40px;
+}
+.ribbon:after {
+	border-left-width: 30px;
+	border-right-color: transparent;
+	right: -40px;
+}
+.ribbon-content:before,
+.ribbon-content:after {
+	border-color: rgb(200,100,0); transparent transparent transparent;
+	border-style: solid;
+	content: "";
+	display: block;
+	position: absolute;
+		bottom: -20px;
+}
+.ribbon-content:before {
+	border-width: 20px 0 0 20px;
+	left: 0;
+}
+.ribbon-content:after {
+	border-width: 20px 20px 0 0;
+	right: 0;
+}
+/*----header----*/
+
+/**************************************************************/
+/**************************************************************/
+/***************  switch between pictures  ********************/
+/**************************************************************/
+/**************************************************************/
+header {
+	background: url(../img/turntable.jpg) no-repeat;
+	/*background: url(../img/skyline.jpg) no-repeat;*/
+	/*background: url(../img/bridge.jpg) no-repeat;*/
+	background-position: center;
+	background-size: cover;
+}
+/**************************************************************/
+/**************************************************************/
+/********  I think the turntable is most appropriate  *********/
+/**************************************************************/
+/**************************************************************/
+
+#logo {
+	background: rgba(0,0,0,.7);
+	float: left;
+	padding-bottom: 410px;
+	padding-top: 15px;
+	width: 590px;
+}
+#logo a {
+	background: #000;
+	border-radius: 60px;
+	color: #fff;
+	font-family: 'julius sans one';
+	font-size: 40px;
+	line-height: 65px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#logo span {
+	font-size: 48px;
+}
+#logo img {
+	width: 80px;
+}
+#logo a:hover {
+	color: orange;
+}
+/*----nav----*/
+
+nav {
+}
+
+nav a {
+}
+nav a:hover {
+}
+/*----footer----*/
+footer {
+	background: rgba(255,150,50,.7);
+}
+footer p {
+	color: #555;
+	display: block;
+	float: left;
+	font-size: 10px;
+	padding: 25px;
+}
+.social-icons {
+	float: right;
+	list-style: none;
+	padding-right: 10px;
+	padding-top: 19px;
+}
+.social-icons li {
+	display: inline;
+
+}
+
