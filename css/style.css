@@ -169,14 +169,13 @@ header {
 }
 #logo a {
 	background: #000;
-	border-radius: 60px;
+	border-radius: 40px;
 	color: #fff;
 	font-family: 'julius sans one';
 	font-size: 40px;
 	line-height: 65px;
 	margin-left: 10px;
-	padding-left: 10px;
-	padding-top: 10px;
+	padding: 10px 10px 0 10px;
 }
 #logo span {
 	font-size: 48px;
@@ -186,6 +185,7 @@ header {
 }
 #logo a:hover {
 	color: orange;
+	transition: .8s;
 }
 /*----nav----*/
 
@@ -213,8 +213,12 @@ footer p {
 	padding-right: 10px;
 	padding-top: 19px;
 }
+.social-icons a:hover {
+	position: relative;
+	top: -5px;
+	transition: .8s;
+}
 .social-icons li {
 	display: inline;
-
 }
 
