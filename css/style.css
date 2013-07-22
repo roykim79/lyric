@@ -1,5 +1,5 @@
 body {
-	background: url(img/subtle-emboss.png);
+	background: url(../img/subtle-emboss.png);
 	font-family: helvetica, arial, sans-serif;
 }
 
@@ -142,16 +142,16 @@ input[id='form']:checked ~ iframe {
 /**************************************************************/
 /**************************************************************/
 header {
-	/*background: url(img/wall1.jpg) no-repeat;*/
-	/*background: url(img/wall2.jpg) no-repeat;*/
-	background: url(img/wall3.jpg) no-repeat;
-	/*background: url(img/wall4.jpg) no-repeat;*/
-	/*background: url(img/wall5.jpg) no-repeat;*/
-	/*background: url(img/wall6.jpg) no-repeat;*/
-	/*background: url(img/wall7.jpg) no-repeat;*/
-	/*background: url(img/turntable.jpg) no-repeat;*/
-	/*background: url(img/skyline.jpg) no-repeat;*/
-	/*background: url(img/bridge.jpg) no-repeat;*/
+	/*background: url(../img/wall1.jpg) no-repeat;*/
+	/*background: url(../img/wall2.jpg) no-repeat;*/
+	background: url(../img/wall3.jpg) no-repeat;
+	/*background: url(../img/wall4.jpg) no-repeat;*/
+	/*background: url(../img/wall5.jpg) no-repeat;*/
+	/*background: url(../img/wall6.jpg) no-repeat;*/
+	/*background: url(../img/wall7.jpg) no-repeat;*/
+	/*background: url(../img/turntable.jpg) no-repeat;*/
+	/*background: url(../img/skyline.jpg) no-repeat;*/
+	/*background: url(../img/bridge.jpg) no-repeat;*/
 	background-position: center;
 	background-size: cover;
 }
