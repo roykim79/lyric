@@ -1,7 +1,6 @@
 body {
 	background: url(img/subtle-emboss.png);
 	font-family: helvetica, arial, sans-serif;
-	min-height: 650px;
 }
 
 
@@ -201,9 +200,6 @@ nav a:hover {
 /*----footer----*/
 footer {
 	background: rgba(255,150,50,.7);
-	position: absolute;
-	bottom: 0;
-	width: 100%;
 }
 footer p {
 	color: #555;
