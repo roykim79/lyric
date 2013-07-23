@@ -50,7 +50,7 @@ a:hover {
 /*----misc styles----*/
 
 #form-container {
-	background: rgba(0,0,0,.7);
+	/*background: rgba(0,0,0,.7);*/
 	float: left;
 	padding-bottom: 204px;
 	width: 360px;
@@ -144,8 +144,8 @@ input[id='form']:checked ~ iframe {
 header {
 	/*background: url(../img/wall1.jpg) no-repeat;*/
 	/*background: url(../img/wall2.jpg) no-repeat;*/
-	background: url(../img/wall3.jpg) no-repeat;
-	/*background: url(../img/wall4.jpg) no-repeat;*/
+	/*background: url(../img/wall3.jpg) no-repeat;*/
+	background: url(../img/wall4.jpg) no-repeat;
 	/*background: url(../img/wall5.jpg) no-repeat;*/
 	/*background: url(../img/wall6.jpg) no-repeat;*/
 	/*background: url(../img/wall7.jpg) no-repeat;*/
@@ -161,7 +161,7 @@ header {
 /**************************************************************/
 
 #logo {
-	background: rgba(0,0,0,.7);
+	/*background: rgba(0,0,0,.7);*/
 	float: left;
 	padding-bottom: 410px;
 	padding-top: 15px;
