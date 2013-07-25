@@ -64,13 +64,38 @@ label[for='form'] > p {
 	letter-spacing: -1px;
 	line-height: 30px;
 	margin: 25px 95px 10px 85px;
+	position: relative;
 	width: 160px;
 	text-align: center;
 }
+label[for='form'] > p:after {
+	background: rgba(255,255,255,.7);
+	border-radius: 20px;
+	color: #f00;
+	content: 'GO AHEAD click it!';
+	display: none;
+	font-family: 'julius sans one', helvetica;
+	padding: 5px;
+	position: absolute;
+		top: 40px;
+		left: 20px;
+		text-align: center;
+	transition: 2s;
+}
+label[for='form'] > p:hover:after {
+	display: block;
+	transition: 1s;
+}
+input[id='form']:checked ~ label[for='form'] > p:after {
+	display: none;
+	transition: 1s;
+}
 label[for='form'] > p:hover {
-	background: rgba(225,120,25,.6);
+	background: rgba(225,120,25,.8);
 	color: #fff;
 	cursor: pointer;
+	text-shadow: 0 0 5px rgba(255,255,255,.8);
+	transition: 1s;
 }
 input[id='form'] {
 	display: none;
@@ -185,7 +210,8 @@ header {
 }
 #logo a:hover {
 	color: orange;
-	transition: .8s;
+	text-shadow: 0 0 8px #fff;
+	transition: .5s;
 }
 /*----nav----*/
 
@@ -215,8 +241,13 @@ footer p {
 }
 .social-icons a:hover {
 	position: relative;
-	top: -5px;
+	top: 5px;
 	transition: .8s;
+}
+.social-icons a:active {
+	box-shadow: 0 0 3px #fff;
+	position: relative; 
+		top: -15px;
 }
 .social-icons li {
 	display: inline;
