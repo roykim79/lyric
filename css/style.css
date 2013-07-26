@@ -103,6 +103,9 @@ li {
 	margin: 140px 0 50px 20px;
 	width: 90%;
 }
+#sam img {
+	border-color: #888;
+}
 #tle img {
 	border-color: #fff;
 }
