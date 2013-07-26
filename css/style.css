@@ -23,6 +23,9 @@ h2 {
 	padding: 40px 0;
 	text-align: center;
 }
+#sam h2 {
+	color: #fff;
+}
 #tle h2 {
 	color: rgb(225,120,25);
 }
@@ -56,6 +59,7 @@ p {
 	color: #fff;
 }
 .side-note {
+	color: #888;
 	display: block;
 	font-family: 'helvetiva', sans-serif;
 	font-size: 12px;
@@ -115,7 +119,7 @@ li {
 	border-top: 10px solid rgba(200,200,200,.3);
 }
 #sam {
-	background: rgba(255,150,50,.7);
+	background: rgba(255,150,50,1);
 	border-top: 10px solid rgb(200,100,0);
 }
 
